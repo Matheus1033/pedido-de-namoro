@@ -1,0 +1,45 @@
+main{
+    display: grid;
+    grid-template-areas: 
+    "titulo titulo"
+    "bnt1 bnt2";
+    justify-content: center;
+}
+div{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 750px;
+    align-items: center;
+    justify-content: center;
+}
+.pedido{
+    grid-area: titulo;
+    font-size: 50px;
+    padding-top: 90px;
+    padding-bottom: 30px;
+}
+ul{
+    display: flex;
+}
+ul li .bnt{
+    padding: 20px 40px;
+    font-size: 30px;
+    top: 50px;
+    margin: 20px;
+    background-color: var(--color);
+    border: 2px solid var(--color);
+    border-radius: 10px;
+}
+ul li .bnt:hover{
+    transition: 0.3s;
+    border: #fff;
+    background-color: #fff;
+    color: var(--color);
+}
+.bnt .sim{
+    grid-area: bnt1;
+}
+.bnt .nao{
+    grid-area: bnt2;
+}

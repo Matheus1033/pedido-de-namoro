@@ -1,0 +1,27 @@
+.texto-animado span::before{
+    content: "";
+    color: #ff007b;
+    animation: palavras 15s infinite;
+} @keyframes palavras {
+    0%, 10% {
+        content: "Encantadora";
+    } 11%, 20% {
+        content: "Carinhosa";
+    } 21%, 30% {
+        content: "Inteligente";
+    } 31%, 40% {
+        content: "Generosa";
+    } 41%, 50% {
+        content: "Luminosa";
+    } 51%, 60% {
+        content: "Forte";
+    } 61%, 70% {
+        content: "Alegre";
+    } 71%, 80% {
+        content: "Elegante";
+    } 81%, 90% {
+        content: "Criativa";
+    } 91%,100% {
+        content: "Amorosa";
+    }
+}

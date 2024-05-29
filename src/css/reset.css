@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    color: #000;
+    font-family: var(--fonts);
+}
+body{
+  background: url(../image/backgroud-coracoes.jpg) center center no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+a {
+  text-decoration: none;
+}
+ul{
+  list-style: none;
+}
